@@ -1,6 +1,7 @@
 import Firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 import "firebase/compat/auth";
+// import { seedDatabase } from "../seed";
 
 const config = {
   apiKey: "AIzaSyDKhFKZTvyyDDIrby9CFmfImgr6tuxvvF8",
@@ -12,5 +13,9 @@ const config = {
 };
 
 const firebase = Firebase.initializeApp(config);
+
+// this is to seed the data from the seed file into the firestore.
+// DO NOT UNCOMMENT if you have seeded the data once, because it will automatically seed the data as firebase has been exported in the end and we consume it in src/index.js.
+// seedDatabase(firebase);
 
 export { firebase };

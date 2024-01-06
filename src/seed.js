@@ -250,7 +250,7 @@ export function seedDatabase(firebase) {
   /* Films
       ============================================ */
   // Drama
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "The Prestige",
     description:
@@ -259,7 +259,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "the-prestige",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Fight Club",
     description:
@@ -268,7 +268,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "fight-club",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Kings Speech",
     description:
@@ -277,7 +277,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "kings-speech",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "The Revenant",
     description:
@@ -286,7 +286,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "the-revenant",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "The Social Network",
     description:
@@ -297,7 +297,7 @@ export function seedDatabase(firebase) {
   });
 
   // Suspense
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Shutter Island",
     description:
@@ -306,7 +306,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "shutter-island",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Gone Girl",
     description:
@@ -315,7 +315,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "gone-girl",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Prisoners",
     description:
@@ -324,7 +324,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "prisoners",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Seven",
     description:
@@ -333,7 +333,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "seven",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Zodiac",
     description:
@@ -344,7 +344,7 @@ export function seedDatabase(firebase) {
   });
 
   // Children
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Hotel Transylvania",
     description:
@@ -353,7 +353,7 @@ export function seedDatabase(firebase) {
     maturity: "0",
     slug: "hotel-transylvania",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Despicable Me",
     description:
@@ -362,7 +362,7 @@ export function seedDatabase(firebase) {
     maturity: "0",
     slug: "despicable-me",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Frozen",
     description:
@@ -371,7 +371,7 @@ export function seedDatabase(firebase) {
     maturity: "0",
     slug: "frozen",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Spirited Away",
     description:
@@ -380,7 +380,7 @@ export function seedDatabase(firebase) {
     maturity: "0",
     slug: "spirited-away",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Up",
     description:
@@ -391,7 +391,7 @@ export function seedDatabase(firebase) {
   });
 
   // Thriller
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Joker",
     description:
@@ -400,7 +400,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "joker",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "A Quiet Place",
     description:
@@ -409,7 +409,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "a-quiet-place",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Black Swan",
     description:
@@ -418,7 +418,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "black-swan",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Nightcrawler",
     description:
@@ -427,7 +427,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "nightcrawler",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "The Silence of The Lambs",
     description:
@@ -438,7 +438,7 @@ export function seedDatabase(firebase) {
   });
 
   // Romance
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "A Star Is Born",
     description:
@@ -447,7 +447,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "a-star-is-born",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Blue Valentine",
     description:
@@ -456,7 +456,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "blue-valentine",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "La La Land",
     description:
@@ -465,7 +465,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "la-la-land",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "The Notebook",
     description:
@@ -474,7 +474,7 @@ export function seedDatabase(firebase) {
     maturity: "15",
     slug: "the-notebook",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("movie").add({
     id: getUUID(),
     title: "Titanic",
     description:
